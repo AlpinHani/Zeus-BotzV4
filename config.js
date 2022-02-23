@@ -57,8 +57,8 @@ global.APIKeys = { // APIKey nya disini
   'http://xosfor.herokuapp.com': '8uhDyCud',
 }
 //sosmed owner
-global.yt = 'https://youtube.com/channel/UCVv3wC5Q7_juw-d9HepjpOQ' //UBAH JADI LINK YT LU
-global.ig = `https://instagram.com/the.sad.boy01` //UBAH JADI LINK IG LU
+global.yt = 'https://youtube.com/c/NaisaAlifiaYurizaNAY' //UBAH JADI LINK YT LU
+global.ig = `https://instagram.com/en4y.pin` //UBAH JADI LINK IG LU
 
 //donasi
 global.donate = `
@@ -78,7 +78,7 @@ global.donate = `
 global.packname = 'AlpinBotz'
 global.author = '◈ AlpinXDV3'
 
-global.wait = '_*tunggu sedang di proses...*_'
+global.wait = '_*Loanjing Kak ><...*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=chrominium-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontname=nosifer&text='
 global.fla2 = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=inferno-logo&doScale=true&scaleWidth=800&scaleHigh=500&fontname=gemina&text='
 global.img = fs.readFileSync('./src/img2.jpg')

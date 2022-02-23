@@ -1,5 +1,5 @@
 {
-  "name": "ZeusBotz",
+  "name": "AlpinXD",
   "version": "1.19.12",
   "description": "WhatsApp Bot Ringan",
   "main": "index.js",
@@ -23,7 +23,7 @@
     "stikeribot",
     "games-wabot"
   ],
-  "author": "Recode By Pilar",
+  "author": "Recode By AlpinXD",
   "bugs": {
     "url": "https://github.com/Kangsad01/wabot-Tsb01/issues"
   },

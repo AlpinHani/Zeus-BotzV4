@@ -173,16 +173,16 @@ function ucapan() {
   const time = (new Date().getUTCHours() + 7) % 24
   res = "Woi. Pagi"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Selamat Pagi🌄"
   }
   if (time >= 12) {
-    res = "Selamat Siang"
+    res = "Selamat Siang🏙️"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "Selamat Sore🌆"
   }
   if (time >= 19) {
-    res = "Selamat Malam"
+    res = "Selamat Malam🌃"
   }
   return res
 }

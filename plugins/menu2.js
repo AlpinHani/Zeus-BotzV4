@@ -95,7 +95,7 @@ let handler  = async (m, { conn, usedPrefix: _p, DevMode }) => {
     let header = conn.menu.header || `⁙╭━━•›ꪶ ⸙ ━ ━ ━ ━ ꪶ ⸙‹•━━╮
 ⁙┃╭┈─────────────⩵࿐ཱི
 ⁙┃╰─── %category ───➤ ↶↷* 
-⁙├☆─〔  AlpinXD 〕 ──➤`
+⁙├☆─〔  Alpin XD 〕 ──➤`
     let body   = conn.menu.body   || '⁙├〲 %cmd%islimit'
     let footer = conn.menu.footer || '⁙╰•☆°°°🕊°°°🕊°°°🕊°°°‹•━━╮'
     let after  = conn.menu.after  || '\n'
@@ -128,20 +128,20 @@ let handler  = async (m, { conn, usedPrefix: _p, DevMode }) => {
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${nama}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
   sumberImg = fs.readFileSync(`./src/logo.jpg`)
-  image = (await conn.prepareMessage('62896255561617@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
+  image = (await conn.prepareMessage('6282287750102@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
   res = await conn.prepareMessageFromContent(m.chat, {
     "productMessage": {
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
         "title": `${ucapan()}, ${conn.getName(m.sender)} !`,
-        "description": '◈ Recode By Pilar\n\n' + text,
+        "description": '◈ Recode By Alpin\n\n' + text,
         "retailerId":  `${week} ${date}\n\nTime: ${time} Wib`,
         "url": 'github.com/PilarV2',
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6289255561617@s.whatsapp.net",
+      "businessOwnerJid": "6282287750102@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
@@ -157,7 +157,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
 }
 handler.help = ['menu2']
 handler.tags = ['info']
-handler.command = /^(menu2|menukatalog|command)$/i
+handler.command = /^(menu2|menu|command)$/i
 module.exports = handler
 
 const more = String.fromCharCode(8206)

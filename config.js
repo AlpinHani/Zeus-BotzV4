@@ -1,17 +1,17 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.wm = `◈ ZeusBotz` //UBAH JADI NAMAMU
-global.botwm = `◈ ZeusBotzV3` //UBAH JADI NAMAMU
+global.wm = `◈ AlpinXD` //UBAH JADI NAMAMU
+global.botwm = `◈ AlpinXDV3` //UBAH JADI NAMAMU
 
-global.name = 'Zeus Botz'// nama bot
-global.dev = `Pilar`// developer
+global.name = 'AlpinXD'// nama bot
+global.dev = `Alfin`// developer
 
 
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM', 'https://chat.whatsapp.com/CnQV9lNcHuIENb8SQ9CaYP']
 //kalo mau ubah nama owner nya ubah di ../plugins/creator.js
-global.owner = ['6289625556161','62896255561617'] // Letakan nomor kamu disini
+global.owner = ['6282287750102','6285799743665'] // Letakan nomor kamu disini
 global.mods = ['62895336282144', '6281319944687', '6287878505740', '6283128734012'] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -57,13 +57,13 @@ global.APIKeys = { // APIKey nya disini
   'http://xosfor.herokuapp.com': '8uhDyCud',
 }
 //sosmed owner
-global.yt = 'https://youtube.com/channel/UCVv3wC5Q7_juw-d9HepjpOQ' //UBAH JADI LINK YT LU
-global.ig = `https://instagram.com/the.sad.boy01` //UBAH JADI LINK IG LU
+global.yt = 'https://youtube.com/c/NaisaAlifiaYurizaNAY' //UBAH JADI LINK YT LU
+global.ig = `https://instagram.com/en4y.pin` //UBAH JADI LINK IG LU
 
 //donasi
 global.donate = `
 ╭─「  Donasi • Pulsa 」
-├❒ tre [+6289625556161]
+├❒ tre [+6282287750102]
 ╰────
 
 ╭─「  Donasi • Non Pulsa 」
@@ -71,14 +71,14 @@ global.donate = `
 ├❒ saweria [https://saweria.co/thesadboy01]
 ╰────
 ╭─「  Hubungi 」
-├❒ Ingin donasi? Wa.me/6289625556161
+├❒ Ingin donasi? Wa.me/6282287750102
 ╰────` //UBAH JADI NOMER MU
 
 // Sticker WM
-global.packname = 'ZeusBotz'
-global.author = '◈ ZeusBotzV3'
+global.packname = 'AlpinXD'
+global.author = '◈ AlpinXDV3'
 
-global.wait = '_*tunggu sedang di proses...*_'
+global.wait = '_*Loanjing...*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=chrominium-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontname=nosifer&text='
 global.fla2 = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=inferno-logo&doScale=true&scaleWidth=800&scaleHigh=500&fontname=gemina&text='
 global.img = fs.readFileSync('./src/img2.jpg')

@@ -34,6 +34,8 @@ beniismail:
 https://github.com/botstylee
 Adi-Officiall
 https://github.com/Adi-OfficialL
+Alpin-XD
+https://github.com/AlpinHani
 Dll
 `
 let sr = fs.readFileSync('./thumb/tqto.jpg')

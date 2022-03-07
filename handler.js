@@ -706,7 +706,7 @@ await conn.sendMessage(jid, { "contentText": text, "footerText": wm,
             "directPath": "/v/t62.7118-24/35150115_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
             "mediaKeyTimestamp": "1634472176",
             "jpegThumbnail": action === 'add' ? wel : lea,
-  }}, 'buttonsMessage', { quoted: false, contextInfo: { mentionedJid: [user], forwardingScore: 999, isForwarded: true, externalAdReply: { title: wm, body: 'Zeus Botz V3', description: ' Recode By Pilar', mediaType: 2, thumbnail: img, mediaUrl: `https://youtu.be/Hp8Kw4--OyQ`}}})
+  }}, 'buttonsMessage', { quoted: false, contextInfo: { mentionedJid: [user], forwardingScore: 999, isForwarded: true, externalAdReply: { title: wm, body: 'Alpin-XD', description: ' Recode By Alpin', mediaType: 2, thumbnail: img, mediaUrl: `https://youtu.be/Hp8Kw4--OyQ`}}})
             }
           }
         }

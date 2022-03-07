@@ -63,11 +63,11 @@ global.ig = `https://instagram.com/en4y.pin` //UBAH JADI LINK IG LU
 //donasi
 global.donate = `
 ╭─「  Donasi • Pulsa 」
-├❒ tre [+6282287750102]
+├❒ PULSA [082287750102]
 ╰────
 
 ╭─「  Donasi • Non Pulsa 」
-├❒ Dana & Ovo [6289625556161]
+├❒ DANA & GOPAY [082287750102]
 ╰────
 
 ╭─「  Hubungi 」
@@ -78,7 +78,7 @@ global.donate = `
 global.packname = 'AlpinBotz'
 global.author = '◈ AlpinXDV3'
 
-global.wait = '_*Loanjing Kak ><...*_'
+global.wait = '_*Waitt sedang diproses...*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=chrominium-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontname=nosifer&text='
 global.fla2 = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=inferno-logo&doScale=true&scaleWidth=800&scaleHigh=500&fontname=gemina&text='
 global.img = fs.readFileSync('./src/img2.jpg')

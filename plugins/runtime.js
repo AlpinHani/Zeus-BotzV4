@@ -16,9 +16,9 @@ function kyun(seconds){
   return `𝙍𝙐𝙉𝙏𝙄𝙈𝙀 :\n${pad(hours)} Jam ${pad(minutes)} Menit ${pad(seconds)} Detik`
 }
 					runtime = process.uptime()
-					teks = `◈ Made by The.sad.boy01`
+					teks = `◈ Alpin-XD`
 					var itsme = `0@s.whatsapp.net`
-					var split = `https://github.com/Kangsad01`
+					var split = `https://github.com/AlpinHani`
 					const rtimebro = {
 					contextInfo: {
 					participant: itsme,

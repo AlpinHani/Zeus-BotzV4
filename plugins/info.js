@@ -24,17 +24,16 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥〘${package.name} 〙 ═
 ╠➥ *Versi:* ${package.version}
 ╠➥ *HomePage:* ${(package.homepage ? package.homepage.url || package.homepage : '[unknown github url]')}
-╠➥ *Issue:* ${package.bugs.url}
-╠➥ *Global Prefix:* 
-║ ${global.prefix}
+╠➥ *Issue:*-
+╠➥ *Global Prefix:*-
 ╠➥ *Menu:* ${usedPrefix}menu
 ╠➥ *Ping:* ${neww - old} *ms*
 ╠➥ *Total user:* ${totalreg} *user*
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI💸 〙 ═
-╠➥ three: 0895336282144
-╠➥ saweria: https://saweria.co/thesadboy01
+╠➥ three: 082287750102
+╠➥ saweria:-
 ║
 ╠═ Request? ${package.bugs.url}
 ╠═ officiall Group *${conn.getName(conn.user.jid)}* :

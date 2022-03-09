@@ -1,9 +1,9 @@
 let handler = async (m, { conn, text }) => {
     let name = m.fromMe ? conn.user : conn.contacts[m.sender]
-conn.reply(global.owner[0] + `@s.whatsapp.net`, ` *@6282287750102 Ada yang memanggil anda :V*`, m)
+conn.reply(global.owner[0] + `@s.whatsapp.net`, ` *@6282287750102 Ada yang memanggil anda 🗿*`, m)
 
   conn.reply(m.chat, `
-Kak Alpin⁩ (@6282287750102  ), Ada Yang Manggil anda😊
+ _Kak_ @6282287750102 *_Ada Yang Manggil anda_* 🥰
 `.trim(), m)
     let mentionedJid = [m.sender]
 }

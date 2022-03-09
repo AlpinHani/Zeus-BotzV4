@@ -334,7 +334,7 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Jangan Lupa Tidur, Lop you<3"
+  res = "Jangan Lupa Tidur Lop you <3"
   if (time >= 4) {
     res = "Selamat pagi 🌄"
   }

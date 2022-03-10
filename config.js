@@ -1,10 +1,10 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.wm = `◈ AlpinXD` //UBAH JADI NAMAMU
-global.botwm = `◈ AlpinXDV3` //UBAH JADI NAMAMU
+global.wm = `◈ Alpin-XD` //UBAH JADI NAMAMU
+global.botwm = `◈ Alpin` //UBAH JADI NAMAMU
 
-global.name = 'Alpin Botz'// nama bot
+global.name = 'Alpin-XD'// nama bot
 global.dev = `Alpin`// developer
 
 
@@ -75,8 +75,8 @@ global.donate = `
 ╰────` //UBAH JADI NOMER MU
 
 // Sticker WM
-global.packname = 'AlpinBotz'
-global.author = '◈ AlpinXDV3'
+global.packname = 'Alpin-XD'
+global.author = '◈ Alpin'
 
 global.wait = '_*Waitt sedang diproses...*_'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=chrominium-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontname=nosifer&text='

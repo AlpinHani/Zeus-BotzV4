@@ -1,13 +1,14 @@
-const brainly = require('brainly-scraper-v2')
-let handler = async function (m, { text }) {
-  if (!text) throw 'Soalnya?'
-  let res = await brainly(text)
-  let answer = res.data.map((v, i) => `_*PERTANYAAN KE ${i + 1}*_\n${v.pertanyaan}\n${v.jawaban.map((v,i) => `*JAWABAN KE ${i + 1}*\n${v.text}`).join('\n')}`).join('\n\n•------------•\n\n')
-  m.reply(answer)
+let fetch = require('node-fetch')
+let handler = async (m, { text, command, usedPrefix }) => {
+    if (!text) throw `uhm.. teksnya mana?\n\ncontoh:\n${usedPrefix + command} kapan indonesia merdeka`
+    let res = await fetch(`https://api.xteam.xyz/brainly?soal=${text}&APIKEY=cristian9407`)
+    if (!res.ok) throw eror
+    let json = await res.json()
+    if (!json.status) throw json
+    m.reply(json.jawaban)
 }
-handler.help = ['brainly <soal>']
-handler.tags = ['internet']
-
+handler.help = ['brainly <teks>']
+handler.tags = ['edukasi']
 handler.command = /^brainly$/i
 handler.register = true
 
